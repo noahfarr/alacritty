@@ -1,0 +1,43 @@
+import:
+ - ~/.config/alacritty/themes/themes/catppuccin.yaml
+
+env:
+  TERM: xterm-256color
+
+window:
+  opacity: 0.5
+
+font:
+  # Normal Font Configuration
+  normal:
+    family: "JetBrainsMono Nerd Font"
+    style: "Regular"
+
+  # Bold Font Configuration
+  bold:
+    style: "Bold"
+
+  # Italic Font Configuration
+  italic:
+    style: "Italic"
+
+  # Bold Italic Font Configuration
+  bold_italic:
+    style: "Bold Italic"
+
+  # Font size in points
+  size: 11.0
+
+  # Offset Configuration
+  offset:
+    x: 0
+    y: 0
+
+  # Glyph Offset Configuration
+  glyph_offset:
+    x: 0
+    y: 0
+
+  # Builtin Box Drawing
+  builtin_box_drawing: true
+

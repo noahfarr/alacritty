@@ -1,0 +1,39 @@
+import = [
+    "~/.config/alacritty/themes/themes/catppuccin_macchiato.toml"
+]
+
+[keyboard]
+bindings = [
+  { key = "Right", mods = "Alt", chars = "\u001BF" },
+  { key = "Left",  mods = "Alt", chars = "\u001BB" },
+]
+
+[window]
+opacity = 0.95
+blur = true
+
+[font]
+# Normal Font Configuration
+normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
+
+# Bold Font Configuration
+bold = { style = "Bold" }
+
+# Italic Font Configuration
+italic = { style = "Italic" }
+
+# Bold Italic Font Configuration
+bold_italic = { style = "Bold Italic" }
+
+# Font size in points
+size = 11.0
+
+# Offset Configuration
+offset = { x = 0, y = 0 }
+
+# Glyph Offset Configuration
+glyph_offset = { x = 0, y = 0 }
+
+# Builtin Box Drawing
+builtin_box_drawing = true
+
